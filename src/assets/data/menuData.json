@@ -1,0 +1,46 @@
+[
+    {
+        "name":"Dashboard",
+        "url": "/dashboard",
+        "iconClass":"fa fa-database"
+    },
+    {
+        "name":"Candidates",
+        "url": "/canditates",
+        "iconClass":"fa fa-users"
+    },
+    {
+        "name":"Dice Candidates",
+        "url": "/diceCandidates",
+        "iconClass":"fa fa-user"
+    },
+    {
+        "name":"Jobs",
+        "url": "/jobs",
+        "iconClass":"fa fa-briefcase"
+    },
+    {
+        "name":"Accounts",
+        "url": "/accounts",
+        "iconClass":"fa fa-building"
+    },
+    {
+        "name":"Applicants",
+        "url": "/applicants",
+        "iconClass":"fa fa-download"
+    },
+    {
+        "name":"All Leads",
+        "url": "/allLeads",
+        "iconClass":"fa fa-assistive-listening-systems"
+    },{
+        "name":"Vendors",
+        "url": "/vendors",
+        "iconClass":"fa fa-suitcase"
+    }
+    ,{
+        "name":"Notifications",
+        "url": "/notifications",
+        "iconClass":"fa fa-bell"
+    }
+]

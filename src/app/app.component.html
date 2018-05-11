@@ -1,0 +1,16 @@
+<main id="main-wrapper">
+    <aside class="left-block">
+        <div class="search-block">
+            <div class="search-input-block">
+                <input type="text" placeholder="Search..." [(ngModel)]="searchName"><span class="search-btn"><i class="fa fa-search"></i></span>
+            </div>
+        </div>
+        <ul class="menus">
+            <li *ngFor="let menu of menus | filterData : ['name',searchName]">
+                <a href=""><i class="{{menu.iconClass}}"></i>{{menu.name}}</a>
+            </li>
+            <li class="text-align-c" *ngIf="(menus | filterData:['name',searchName])?.length === 0">-- Data not found --</li>
+        </ul>
+    </aside>
+    <section class="right-block"></section>
+</main>
